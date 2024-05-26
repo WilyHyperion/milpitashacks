@@ -31,7 +31,7 @@ async function generateGuide(word) {
       {
         role: "system",
         content: `Give 5 relevant vocabulary terms along with a very short definition for"${word}" 
-        . Seperate the term and the respective definition with a plus sign(+), and at the end of the definition, add a semicolon. Do not include any additional text or characters`,
+        . Seperate the term and the respective definition with a plus sign(+), and at the end of the definition, add a semicolon. Do not include any additional text or characters `,
       },
     ],
   });

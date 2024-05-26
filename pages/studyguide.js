@@ -70,6 +70,7 @@ export default function Home() {
         apiOutput.forEach((item, index) => {
           if (index != apiOutput.length - 1) {
             apiOutput[index][0] += "-";
+
           }
         });
         console.log(apiOutput);
@@ -126,7 +127,7 @@ export default function Home() {
         const textLines = doc.splitTextToSize(info, 170); // Split text into lines that fit within 170 units
         textLines.forEach((line) => {
           doc.text(line, 20, yPos); // Add information line by line
-          yPos += 7; // Increase vertical position for next line
+          yPos += 10; // Increase vertical position for next line
         });
       });
   
